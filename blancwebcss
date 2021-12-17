@@ -1,0 +1,74 @@
+/*body{
+  color:rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 2em 5em;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  
+  grid-template-areas: "menu menu"
+                        "leftSide rightSide"
+                        "bottom bottom";
+}
+
+header{
+  grid-area: menu;
+ 
+}
+
+footer{
+  grid-area: bottom;
+  
+}
+#left{
+  grid-area: leftSide;
+  padding-top: 2em;
+  margin-left: 2.5em;
+
+}
+#right{
+  grid-area: rightSide;
+  padding-top: 2em;
+  
+}
+li{
+  display: inline;
+  padding-left: 1em;
+ 
+}
+ul{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1em;
+  margin-bottom: 3em;
+}
+#cadet{
+  display: flex;
+  float:left;
+  padding: 10px;
+  position: relative;
+  font-weight: bold;
+  font-size: 35px;
+}
+#pictureJean{
+width: 600px;
+height: 800px;
+}
+.btn{
+  border: 1px;
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 110px;
+  position: static;
+}
+footer{
+  padding-top: 20px;
+  opacity: 0.5;
+}
+hr{
+
+ width: 98%;
+ 
+}
+*/
